@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Commedia secondo l'antica vulgata</title>
+				<author xml:id="DA">Dante Alighieri</author>
+				<editor role="editor" xml:id="GP">Giorgio Petrocchi</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Casa Editrice Le Lettere</publisher>
+				<distribution>Wikisource.org</distribution>
+				<pubPlace>Firenze</pubPlace>
+				<address>
+					<name type="city">Firenze</name>
+					<name type="country">Italia</name>	
+				</address>
+				<idno type="ISBN-10">8871661486</idno>
+				<idno type="ISBN-13">978-8871661483</idno>
+				<availability status="free">
+					<licence>Creative Commons<ref target="https://creativecommons.org/licenses/?lang=it"></ref></licence>
+				</availability>
+				<date when="1-01-1994">1 gennaio 1994</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><title>La Commedia secondo l'antica vulgata</title></bibl> by
+				<author>Dante Alighieri</author>
+				<pubPlace>Firenze</pubPlace>
+				<publisher>Casa Editrice Le Lettere</publisher>
+				<date when="1-01-1994">1 gennaio 1994</date>
+				<extend>636 p.</extend>
+				<editor role="editor" xml:id="GP">Giorgio Petrocchi</editor>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="poem">
+				<head>Canto I Inferno</head>
+					<lg type="terzina" n="1">
+						<l n="1">Nel mezzo del cammin di nostra<rhyme>vita</rhyme>1</l>
+						<l n="2">Mi ritrovai per una selva<rhyme>oscura</rhyme></l>
+						<l n="3">Chè la diritta via era<rhyme>smarrita</rhyme>.3</l>
+					</lg>	
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+

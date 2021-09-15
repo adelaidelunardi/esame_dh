@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="TATE">
+		<author xml:id="TATE-WB">
+			<text xml:id="TATE-WB-1I">
+				<dc:title>Dante running from the Three Beasts</dc:title>
+				<dc:creator>Blake, William</dc:creator>
+				<dc:date>1824-1827</dc:date>
+				<dc:subject>Incisione</dc:subject>
+				<dc:description>Incisione relativa al Canto I dell'Inferno dantesco, raffigura Dante mentre scappa dalle tre fiere (la lupa, il leone e la lonza).</dc:description>
+				<dc:type>Immagine</dc:type>
+				<dc:format>jpg</dc:format>
+				<dc:identifier>https://www.tate.org.uk/sites/default/files/styles/width-600/public/williamblakedantewildbeasts_2.jpg</dc:identifier>
+				<dc:language>English</dc:language>
+				<dc:coverage>Australia</dc:coverage>
+				<dc:rights>Copyright National Gallery of Victoria, Melbourne, Australia</dc:rights>
+			</text>
+		</author>
+	</library>
