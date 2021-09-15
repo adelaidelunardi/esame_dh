@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	    <title>La Commedia per immagini</title>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- metadati DC -->
+        <meta name="DC.Title" content="La Commedia per immagini">
+        <meta name="DC.Creator" content="Adelaide Lunardi">
+        <meta name="DC.Subject" content="Le illustrazioni alla Commedia di Dante">
+        <meta name="DC.Description" content="Collezione di illustrazioni della Divina Commedia realizzate da diversi artisti">
+        <meta name="DC.Date" content="Settembre 2021">
+        <meta name="DC.Type" content="Sito web">
+        <meta name="DC.Format" content="HTML/CSS">
+        <link rel="DC.Identifier" href="https://adelaidelunardi.github.io/esame_dh/"> 
+        <meta name="DC.Language" content="it">
+        <meta name="DC.Rights" content="https://creativecommons.org/share-your-work/"> 
+	    <!-- Collegamento a bootstrap -->
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	    <!-- Collegamento a icone di google -->
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	    <!-- Collegamento al documento di stile in CSS -->
+	    <link rel="stylesheet" type="text/css" href="stile/stile.css">
+ 	</head>
+
+<body >
+	<header>
+	<!-- NAVBAR-->
+		<div class="header">
+			<h1>Tutte le illustrazioni dell'Inferno</h1>
+    	</div>	    
+		    <div class="barrafixed">
+		   		<div>
+		        	<h2 class="titolo"> La Commedia per immagini</h2>
+			    </div>
+
+			<div class="navigazione">
+			   	<nav>
+		        	<ul> 
+	              		<li class="nav-item">
+				            <a class="nav-link" href="index.html">Home</a>
+					   	</li>
+				       
+				        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Catalogo
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="inferno.html">Inferno</a>
+          <a class="dropdown-item" href="purgaorio.html">Purgatorio</a>
+           <a class="dropdown-item" href="paradiso.html">Paradiso</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href=".html">Collezione completa</a>
+        </div>
+      </li>
+		           	</ul>
+				</nav>
+		    </div>
+      </div>
+
+	</header>
+
+<main>
+
+    	<section class="container-fluid">
+        <div>
+
+            <ul class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  
+  <li>Inferno</li>
+</div>
+</ul>
+			<div class="container">
+				
+				<nav class="navbar">
+  <a class="filtra-per" style="color: black;"><h2>Filtra per</h2></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Es. Fiere" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>
+  </form>
+</nav>
+        			<div class="row">
+        				<div class="col-md-2" id=filtro>
+
+
+
+                  <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artista
+                </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  
+                    <button class="dropdown-item" type="button"><a href="#Bigioli">Filippo Bigioli</a></button>
+                    <button class="dropdown-item" type="button"><a href="#Blake">William Blake</a></button>
+                    <button class="dropdown-item" type="button"><a href="#Botticelli">Sandro Botticelli</a></button>
+                    <button class="dropdown-item" type="button"><a href="#Dali"> Salvador Dalì</a></button>
+                    <button class="dropdown-item" type="button"><a href="#Dore"> Gustave Dorè</a></button>
+                    <button class="dropdown-item" type="button">...</button>
+                    </div> 
+              </div>
+
+       						<div class="dropdown">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data
+								</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								    	<button class="dropdown-item" type="button">XV secolo</button>
+								    	<button class="dropdown-item" type="button">XVI secolo</button>
+								    	<button class="dropdown-item" type="button">XVII secolo</button>
+                      <button class="dropdown-item" type="button">XVIII secolo</button>
+                      <button class="dropdown-item" type="button">IX secolo</button>
+								    	<button class="dropdown-item" type="button">...</button>
+								    </div>
+   							</div>
+
+       						
+
+							<div class="dropdown">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soggetto
+								</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								    	<button class="dropdown-item" type="button">Canto I</button>
+								    	<button class="dropdown-item" type="button">Canto II</button>
+								    	<button class="dropdown-item" type="button">Canto III</button>
+								    	<button class="dropdown-item" type="button">Canto IV</button>
+								    	<button class="dropdown-item" type="button">Canto V</button>
+								    	<button class="dropdown-item" type="button">Canto VI</button>
+								    	<button class="dropdown-item" type="button">...</button>
+								    </div>
+   							</div>
+
+   							<div class="dropdown">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tecnica
+								</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								    	<button class="dropdown-item" type="button">Pittura</button>
+								    	<button class="dropdown-item" type="button">Incisione</button>
+								    	<button class="dropdown-item" type="button">Xilografia</button>
+								    	<button class="dropdown-item" type="button">Acquerelli</button>
+								    	<button class="dropdown-item" type="button">...</button>
+								    </div>
+   							</div>
+
+<div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luogo
+                </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button"><a href=#bigioli>Italia</a></button>
+                    <button class="dropdown-item" type="button"><a href=#blake>Germania</a></button>
+                    <button class="dropdown-item" type="button"><a href=#botticelli>Regno Unito</a></button>
+                    <button class="dropdown-item" type="button"><a href=#dali>Stati Uniti</a></button>
+                    <button class="dropdown-item" type="button"><a href=#dore>Australia</a></button>
+                    <button class="dropdown-item" type="button">...</button>
+                    </div>
+              </div>
+   							
+   							<div class="dropdown">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Colore
+								</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								    	<button class="dropdown-item" type="button">Bianco e nero</button>
+								    	<button class="dropdown-item" type="button">Colori</button>
+								    </div>
+   							</div>
+
+<!-- TIMELINE-->
+
+
+ 
+ 
+ <!-- AGGIUNGI MAGARI IL SUPPORTO O SE NEL MUSEO SONO CONSERVATE FOTO O BHO -->
+
+						</div>
+
+
+
+						<div class="col-md-1"></div>
+
+
+  <div class="col-md-9" id="cataloghi">
+      <div class="galleria">
+
+
+
+<p><strong><a name="Bigioli" href="persona.html" style="color: black;">Filippo Bigioli</a></strong></p>
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/bigioli/2.jpg" title="Canto XXIV">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto XXIV</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Finto arazzo</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Olio su tela</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+        <div class="card">
+                <img class="img-card" src="immagini/bigioli/1.jpg" title="Canto XXVIII">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto XXVIII</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Finto arazzo</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Olio su tela</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                      
+                    </div>
+              </div>
+
+          
+    <div class="card">
+     
+                <img class="img-card" src="immagini/bigioli/inf.1.jpg" title="Filippo Bigioli, Inferno Canto I ">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto I</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Bozzetto</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Disegno</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button> <a href="bigioli_1.html">Tutti i metadati</a></button>
+                    </div>
+              </div>
+</div>
+
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/bigioli/inf.3.jpg" title="Canto III" >
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto III</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Bozzetto</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Disegno</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+        <div class="card">
+                <img class="img-card" src="immagini/bigioli/inf.5.2.jpg" title="Canto V">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto V</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Bozzetto</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Disegno</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                      
+                    </div>
+              </div>
+
+          
+    <div class="card">
+     
+                <img class="img-card" src="immagini/bigioli/inf.9.jpg" title="Canto IX">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto IX</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Filippo Bigioli</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1854-1860</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Bozzetto</a></strong></li>
+                    <li class="list-group-item">Tecnica <a><strong>Disegno</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Galleria Bigioli, San Severino</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button> <a>Tutti i metadati</a></button>
+                    </div>
+              </div>
+</div>
+
+<p><strong><a name="Blake" href="#" style="color: black;">William Blake</a></strong></p>
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/blake/canto1.jpg" title="William Blake, Inferno Canto I">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto I</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>National Gallery of Victoria, Melbourne, Australia</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button><a href="blake_1.html">Tutti i metadati</a></button>
+                    </div>
+              </div>
+
+        <div class="card">
+                <img class="img-card" src="immagini/blake/canto5.jpg" title="Canto V">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto V</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Tate Gallery, Londra</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                      
+                    </div>
+              </div>
+
+          
+    <div class="card">
+     
+              <img class="img-card" src="immagini/blake/canto6.jpg" title="Canto VI">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto VI</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Tate Gallery, Londra</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+</div>
+
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/blake/canto7-3.jpg" title="Canto VII">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto VII</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Tate Gallery, Londra</strong></a>
+                    </li>
+                  </ul>
+
+                  
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+        <div class="card">
+                <img class="img-card" src="immagini/blake/canto9.jpg" title="Canto IX">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto IX</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Tate Gallery, Londra</strong></a>
+                    </li>
+                  </ul>
+
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                      
+                    </div>
+              </div>
+
+          
+    <div class="card">
+     <img class="img-card" src="immagini/blake/canto14.jpg" title="Canto XIV">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto XIV</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>William Blake</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1824</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazione</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Tate Gallery, Londra</strong></a>
+                    </li>
+                  </ul>
+
+                
+                
+
+                    <div class="card-body">
+                      <button> <a href="bigioli_1.html">Tutti i metadati</a></button>
+                    </div>
+              </div>
+</div>
+
+<p><strong><a name="Dali" href="#" style="color: black;">Salvador Dalì</a></strong></p>
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/dali/1.jpg" title="Canto I">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto I</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+        
+ <div class="card">
+                <img class="img-card" src="immagini/dali/2.jpg" title="Canto II">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto II</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+<div class="card">
+                <img class="img-card" src="immagini/dali/6.jpg" title="Canto VI">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto VI</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+    
+</div>
+
+
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/dali/3.jpg" title="Canto III">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto III</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+        
+ <div class="card">
+                <img class="img-card" src="immagini/dali/4.jpg" title="Canto IV">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto IV</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+<div class="card">
+                <img class="img-card" src="immagini/dali/5.jpg" title="Canto V">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto V</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Salvador Dalì</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1951</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Illustrazioni</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Aquerello</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong>Palazzo Medici, Firenze</strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+          
+  
+</div>
+
+<p><strong><a name="Dore" href="#" style="color: black;">Gustave Dorè</a></strong></p>  
+<div class="immagine"> 
+    <div class="card">
+                <img class="img-card" src="immagini/dore/canto1-2.jpg" title="Canto I">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto I</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+              <div class="card">
+                <img class="img-card" src="immagini/dore/canto2.jpg" title="Canto II">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto II</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+              <div class="card">
+                <img class="img-card" src="immagini/dore/canto11.jpg" title="Canto XI">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto XI</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+            </div>
+
+<div class="immagine">
+    <div class="card">
+                <img class="img-card" src="immagini/dore/canto8-2.jpg" title="Canto VIII">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto VIII</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+              <div class="card">
+                <img class="img-card" src="immagini/dore/canto9-2.jpg" title="Canto IX">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto IX</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+
+              <div class="card">
+                <img class="img-card" src="immagini/dore/canto10.jpg" title="Canto X">
+                <div class="card-body"></div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soggetto <a><strong>Canto X</strong></a></li>
+                    <li class="list-group-item">Artista <a><strong>Gustave Dorè</strong></a></li>
+                    <li class="list-group-item">Data <a><strong>1861</strong></a></li>
+                    <li class="list-group-item">Tipologia <a><strong>Miniature</strong></a></li>
+                    <li class="list-group-item">Tecnica <a><strong>Incisione</strong></a>
+                    </li>
+                    <li class="list-group-item">Luogo di conservazione <a><strong></strong></a>
+                    </li>
+                  </ul>
+
+                    <div class="card-body">
+                      <button>Tutti i metadati</button>
+                    </div>
+              </div>
+            
+
+
+</div>
+        </div>
+
+
+          <a id="su" href="#top"><i class="material-icons" title="Torna su">arrow_drop_up</i></a>
+
+          <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">...</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+    </div>
+
+
+
+
+						</div>
+
+					</div>
+			</div>
+
+</main>
+
+		</section>
+
+
+
+  <!--  AGGIUNGI MAPPE E GEOLOCALIZZAZIONE !!!!!!!!!!!!! 
+
+    fai una pagina a se con timeline e mappa
+
+    più pagina con metadati ecc-->
+
+
+	        	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+				<!-- JAVASCRIPT DI BOOTSTRAP -->
+	</body>
+
+	<footer>
+      	<p>&copy; Copyright Adelaide Lunardi 2021 | Corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+      	<p><a href="https://creativecommons.org/licenses/by-nc/4.0/" target_blanck>Licenza Creative Commons BY - NC 4.0 International</a></p>
+   	</footer>
+
+</html>
+
